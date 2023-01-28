@@ -1,3 +1,5 @@
+const { findInsertionPoint } = require('../../algorithms/binary-search')
+
 /**
  * Given a list of numbers, find the length of the longest increasing
  * subsequence.
@@ -19,4 +21,25 @@ const lengthOfLIS = function (nums) {
   return Math.max(...dp)
 }
 
-module.exports = { lengthOfLIS }
+/**
+ * This is the alternative Greedy solution for LIS
+ *
+ * @param {number[]} nums
+ * @return {number}
+ */
+const lisWithBinarySearch = function (nums) {
+  const sub = []
+
+  for (const num of nums) {
+    if (sub.length === 0 || sub[sub.length - 1] < num) {
+      sub.push(num)
+    } else {
+      const index = findInsertionPoint(sub, num)
+      sub[index] = num
+    }
+  }
+
+  return sub.length
+}
+
+module.exports = { lengthOfLIS, lisWithBinarySearch }

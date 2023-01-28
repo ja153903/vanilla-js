@@ -35,8 +35,6 @@ const maxEnvelopesTLE = function (envelopes) {
  * @return {number}
  */
 const maxEnvelopes = function (envelopes) {
-  const n = envelopes.length
-
   envelopes.sort((a, b) => {
     if (a[0] === b[0]) {
       return b[1] - a[1]
@@ -55,6 +53,9 @@ const maxEnvelopes = function (envelopes) {
       dp.push(height)
       len++
     } else {
+      // Given the current height, we want to find the
+      // appropriate height to insert this new height
+      // in our DP array
       let left = 0
       let right = len
 
