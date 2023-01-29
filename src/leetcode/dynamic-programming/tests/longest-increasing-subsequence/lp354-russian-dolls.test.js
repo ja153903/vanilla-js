@@ -1,4 +1,6 @@
-const { maxEnvelopes } = require('../lp354-russian-dolls')
+const {
+  maxEnvelopes,
+} = require('../../longest-increasing-subsequence/lp354-russian-dolls')
 
 describe('maxEnvelopes', () => {
   it('should pass some sample tests', () => {

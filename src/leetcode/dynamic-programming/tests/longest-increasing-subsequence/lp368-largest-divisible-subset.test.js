@@ -1,4 +1,6 @@
-const { largestDivisibleSubset } = require('../lp368-largest-divisible-subset')
+const {
+  largestDivisibleSubset,
+} = require('../../longest-increasing-subsequence/lp368-largest-divisible-subset')
 
 describe('largestDivisibleSubset', () => {
   it('should pass a sample case', () => {

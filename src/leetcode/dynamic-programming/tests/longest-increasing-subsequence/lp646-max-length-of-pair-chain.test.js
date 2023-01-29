@@ -1,4 +1,6 @@
-const { findLongestChain } = require('../lp646-max-length-of-pair-chain')
+const {
+  findLongestChain,
+} = require('../../longest-increasing-subsequence/lp646-max-length-of-pair-chain')
 
 describe('findLongestChain', () => {
   it('should pass some sample cases', () => {

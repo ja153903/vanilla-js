@@ -1,4 +1,6 @@
-const { longestStrChain } = require('../lp1048-longest-string-chain')
+const {
+  longestStrChain,
+} = require('../../longest-increasing-subsequence/lp1048-longest-string-chain')
 
 describe('longestStrChain', () => {
   it('should pass some sample tests', () => {

@@ -1,4 +1,4 @@
-const { findInsertionPoint } = require('../../algorithms/binary-search')
+const { findInsertionPoint } = require('../../../algorithms/binary-search')
 
 /**
  * Given a list of numbers, find the length of the longest increasing
