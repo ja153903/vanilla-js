@@ -8,7 +8,6 @@
  */
 const maxEnvelopesTLE = function (envelopes) {
   const n = envelopes.length
-
   envelopes.sort((a, b) => {
     return a[0] - b[0]
   })
