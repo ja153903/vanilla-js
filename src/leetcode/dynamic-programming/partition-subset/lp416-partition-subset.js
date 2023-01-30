@@ -1,4 +1,5 @@
 const { sum } = require('@/algorithms/arrays')
+const { isOdd } = require('@/algorithms/bit-manipulation')
 
 /**
  * Given an integer array nums, return true if you can partition
@@ -40,8 +41,7 @@ function backtracking(nums, total, start, sum) {
 const canPartition = function (nums) {
   let total = sum(nums)
 
-  // This is another way of seeing if it's odd
-  if ((total & 1) === 1) {
+  if (isOdd(total)) {
     return false
   }
 
