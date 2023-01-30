@@ -1,4 +1,6 @@
-const { zeroOneKnapsack } = require('../../dynamic-programming/01knapsack')
+const {
+  zeroOneKnapsack,
+} = require('@/algorithms/dynamic-programming/01knapsack')
 
 describe('zeroOneKnapsack', () => {
   it('should pass some sample cases', () => {

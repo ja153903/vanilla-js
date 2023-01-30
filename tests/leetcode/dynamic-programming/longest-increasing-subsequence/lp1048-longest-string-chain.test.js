@@ -1,6 +1,6 @@
 const {
   longestStrChain,
-} = require('../../longest-increasing-subsequence/lp1048-longest-string-chain')
+} = require('@/leetcode/dynamic-programming/longest-increasing-subsequence/lp1048-longest-string-chain')
 
 describe('longestStrChain', () => {
   it('should pass some sample tests', () => {

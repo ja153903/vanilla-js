@@ -1,6 +1,6 @@
 const {
   maxEnvelopes,
-} = require('../../longest-increasing-subsequence/lp354-russian-dolls')
+} = require('@/leetcode/dynamic-programming/longest-increasing-subsequence/lp354-russian-dolls')
 
 describe('maxEnvelopes', () => {
   it('should pass some sample tests', () => {

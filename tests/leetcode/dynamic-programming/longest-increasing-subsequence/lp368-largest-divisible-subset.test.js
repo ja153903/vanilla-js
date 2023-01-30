@@ -1,6 +1,6 @@
 const {
   largestDivisibleSubset,
-} = require('../../longest-increasing-subsequence/lp368-largest-divisible-subset')
+} = require('@/leetcode/dynamic-programming/longest-increasing-subsequence/lp368-largest-divisible-subset')
 
 describe('largestDivisibleSubset', () => {
   it('should pass a sample case', () => {

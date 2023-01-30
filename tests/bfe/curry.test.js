@@ -1,4 +1,4 @@
-const { curry } = require('../curry')
+const { curry } = require('@/bfe/curry')
 
 describe('curry', () => {
   it('should pass some sample cases', () => {

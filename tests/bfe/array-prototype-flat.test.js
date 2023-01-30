@@ -1,4 +1,4 @@
-const { flat } = require('../array-prototype-flat')
+const { flat } = require('@/bfe/array-prototype-flat')
 
 describe('flat', () => {
   it('should pass some sample test cases', () => {
