@@ -1,4 +1,4 @@
-const { zeroOneKnapsack } = require('../../partition-subset/01knapsack')
+const { zeroOneKnapsack } = require('../../dynamic-programming/01knapsack')
 
 describe('zeroOneKnapsack', () => {
   it('should pass some sample cases', () => {
