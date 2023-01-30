@@ -35,6 +35,21 @@ function backtracking(nums, total, start, sum) {
  *
  * This problem relies on 0/1 knapsack.
  *
+ * Explanation:
+ *
+ * How does this question fit the 0/1 knapsack problem?
+ *
+ * The 0/1 knapsack problem aims to find the maximum value of the items that can be
+ * put into a knapsack of a certain capacity.
+ *
+ * In our case, we aim to see if there exists a subset of values that can be put
+ * into the knapsack with a capacity of half the total sum.
+ *
+ * So our case is a variant of the 0/1 knapsack problem.
+ *
+ * In our dp array, we would say that dp[i] represents whether
+ * the sum i can be formed by some elements in the array.
+ *
  * @param {number[]} nums
  * @returns {boolean}
  */
@@ -47,10 +62,14 @@ const canPartition = function (nums) {
 
   total /= 2
 
+  // dp[i] represents whether the sum i can be formed by some elements in the array
   const dp = new Array(total + 1).fill(false)
   dp[0] = true
 
+  // Iterate over the possible weights
   for (const num of nums) {
+    // Iterate over the capacities as long
+    // as the capacity is greater than or equal to the weight
     for (let i = total; i >= num; i--) {
       dp[i] = dp[i] || dp[i - num]
     }
