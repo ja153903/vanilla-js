@@ -5,7 +5,7 @@
  * @param {number} target
  * @param {number | undefined} start
  * @param {number | undefined} end
- * @return {number}
+ * @returns {number}
  */
 function binarySearch(nums, target, start = 0, end = nums.length - 1) {
   let left = start
@@ -31,7 +31,7 @@ function binarySearch(nums, target, start = 0, end = nums.length - 1) {
  *
  * @param {number[]} nums
  * @param {number} target
- * @return {number}
+ * @returns {number}
  */
 function findInsertionPoint(nums, target) {
   let left = 0

@@ -8,7 +8,7 @@ class EventEmitter {
    *
    * @param {string} eventName
    * @param {Function} callback
-   * @return {{ release: Function }}
+   * @returns {{ release: Function }}
    */
   subscribe(eventName, callback) {
     if (!this.events.has(eventName)) {

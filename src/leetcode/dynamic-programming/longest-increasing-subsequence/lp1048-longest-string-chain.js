@@ -2,7 +2,7 @@
  * We can apply LIS techniques to solve this problem
  *
  * @param {string[]} words
- * @return {number}
+ * @returns {number}
  */
 const longestStrChain = function (words) {
   words.sort((a, b) => {
@@ -33,7 +33,7 @@ const longestStrChain = function (words) {
  * @param {string[]} words
  * @param {number} current
  * @param {number} previous
- * @return {boolean}
+ * @returns {boolean}
  */
 function canTransform(words, current, previous) {
   const currentWord = words[current]

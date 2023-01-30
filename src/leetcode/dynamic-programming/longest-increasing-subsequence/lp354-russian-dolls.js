@@ -4,7 +4,7 @@
  * this means that O(n lg n) is the ideal time complexity
  *
  * @param {number[][]} envelopes
- * @return {number}
+ * @returns {number}
  */
 const maxEnvelopesTLE = function (envelopes) {
   const n = envelopes.length
@@ -31,7 +31,7 @@ const maxEnvelopesTLE = function (envelopes) {
 /**
  *
  * @param {number[][]} envelopes
- * @return {number}
+ * @returns {number}
  */
 const maxEnvelopes = function (envelopes) {
   envelopes.sort((a, b) => {

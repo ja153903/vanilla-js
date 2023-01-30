@@ -8,7 +8,7 @@
  * We just need to sort the items in the list based on the first value
  *
  * @param {number[][]} pairs
- * @return {number}
+ * @returns {number}
  */
 const findLongestChain = function (pairs) {
   pairs.sort((a, b) => {

@@ -7,7 +7,7 @@ const { sum } = require('@/algorithms/arrays')
  * This backtracking solution does not pass the time limit.
  *
  * @param {number[]} nums
- * @return {boolean}
+ * @returns {boolean}
  */
 const canPartitionTLE = function (nums) {
   const total = sum(nums)
@@ -35,11 +35,12 @@ function backtracking(nums, total, start, sum) {
  * This problem relies on 0/1 knapsack.
  *
  * @param {number[]} nums
- * @return {boolean}
+ * @returns {boolean}
  */
 const canPartition = function (nums) {
   let total = sum(nums)
 
+  // This is another way of seeing if it's odd
   if ((total & 1) === 1) {
     return false
   }

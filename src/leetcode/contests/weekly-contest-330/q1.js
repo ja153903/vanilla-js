@@ -1,6 +1,6 @@
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const distinctIntegers = function (n) {
   return n > 1 ? n - 1 : 1

@@ -5,7 +5,7 @@ const { findInsertionPoint } = require('@/algorithms/binary-search')
  * subsequence.
  *
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const lengthOfLIS = function (nums) {
   const dp = new Array(nums.length).fill(1)
@@ -25,7 +25,7 @@ const lengthOfLIS = function (nums) {
  * This is the alternative Greedy solution for LIS
  *
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const lisWithBinarySearch = function (nums) {
   const sub = []

@@ -2,7 +2,7 @@
  * Return the number of longest increasing subsequences
  *
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const findNumberOfLIS = function (nums) {
   const n = nums.length

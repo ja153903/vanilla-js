@@ -23,7 +23,7 @@
  * items in a set of visited values
  *
  * @param {number[]} nums
- * @return {number[]}
+ * @returns {number[]}
  */
 const largestDivisibleSubset = function (nums) {
   const n = nums.length

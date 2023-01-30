@@ -4,7 +4,7 @@
  * House Robbers
  *
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const deleteAndEarn = function (nums) {
   const n = nums.length
