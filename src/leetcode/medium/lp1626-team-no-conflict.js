@@ -21,7 +21,6 @@ const bestTeamScore = function (scores, ages) {
 
   for (let i = 1; i < data.length; i++) {
     for (let j = 0; j < i; j++) {
-      // the value should only be added to the dp array
       if (data[i].age >= data[j].age && data[i].score >= data[j].score) {
         dp[i] = Math.max(dp[i], dp[j] + data[i].score)
       }
