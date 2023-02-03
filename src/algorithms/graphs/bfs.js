@@ -1,4 +1,4 @@
-const { buildUndirectedGraph } = require('./build-graph')
+const { buildUndirectedGraph } = require('./build-graph.js')
 
 /**
  * Note that the assumption here is that we have nodes
@@ -6,7 +6,7 @@ const { buildUndirectedGraph } = require('./build-graph')
  *
  * @param {number[][]} edges
  */
-function bfs(edges) {
+export function bfs(edges) {
   const graph = buildUndirectedGraph(edges)
 
   /** @type {number[]} */
@@ -31,5 +31,3 @@ function bfs(edges) {
     }
   }
 }
-
-module.exports = { bfs }

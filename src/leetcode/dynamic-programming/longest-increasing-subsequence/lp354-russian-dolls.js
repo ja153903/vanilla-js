@@ -6,7 +6,7 @@
  * @param {number[][]} envelopes
  * @returns {number}
  */
-const maxEnvelopesTLE = function (envelopes) {
+export const maxEnvelopesTLE = function (envelopes) {
   const n = envelopes.length
   envelopes.sort((a, b) => {
     return a[0] - b[0]
@@ -33,7 +33,7 @@ const maxEnvelopesTLE = function (envelopes) {
  * @param {number[][]} envelopes
  * @returns {number}
  */
-const maxEnvelopes = function (envelopes) {
+export const maxEnvelopes = function (envelopes) {
   envelopes.sort((a, b) => {
     if (a[0] === b[0]) {
       return b[1] - a[1]
@@ -73,5 +73,3 @@ const maxEnvelopes = function (envelopes) {
 
   return len
 }
-
-module.exports = { maxEnvelopesTLE, maxEnvelopes }

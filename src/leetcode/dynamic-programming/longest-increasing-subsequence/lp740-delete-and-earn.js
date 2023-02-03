@@ -6,7 +6,7 @@
  * @param {number[]} nums
  * @returns {number}
  */
-const deleteAndEarn = function (nums) {
+export const deleteAndEarn = function (nums) {
   const n = nums.length
 
   if (n === 0) {
@@ -35,5 +35,3 @@ const deleteAndEarn = function (nums) {
 
   return result
 }
-
-module.exports = { deleteAndEarn }

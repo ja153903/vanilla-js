@@ -1,4 +1,4 @@
-const { sum } = require('@/algorithms/arrays')
+import { sum } from '@/algorithms/arrays'
 
 /**
  * You are given an array of integers stones where stones[i] is the weight of the ith stone.
@@ -19,7 +19,7 @@ const { sum } = require('@/algorithms/arrays')
  * @param {number[]} stones
  * @return {number}
  */
-const lastStoneWeightII = function (stones) {
+export const lastStoneWeightII = function (stones) {
   let s2 = 0
 
   const n = stones.length
@@ -48,5 +48,3 @@ const lastStoneWeightII = function (stones) {
   // by subtracting twice s2 from the total
   return total - 2 * s2
 }
-
-module.exports = { lastStoneWeightII }

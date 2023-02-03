@@ -10,7 +10,7 @@
  * @param {number[][]} pairs
  * @returns {number}
  */
-const findLongestChain = function (pairs) {
+export const findLongestChain = function (pairs) {
   pairs.sort((a, b) => {
     return a[0] - b[0]
   })
@@ -27,5 +27,3 @@ const findLongestChain = function (pairs) {
 
   return Math.max(...dp)
 }
-
-module.exports = { findLongestChain }

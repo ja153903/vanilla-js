@@ -1,6 +1,4 @@
-const {
-  findLongestChain,
-} = require('@/leetcode/dynamic-programming/longest-increasing-subsequence/lp646-max-length-of-pair-chain')
+import { findLongestChain } from '@/leetcode/dynamic-programming/longest-increasing-subsequence/lp646-max-length-of-pair-chain'
 
 describe('findLongestChain', () => {
   it('should pass some sample cases', () => {

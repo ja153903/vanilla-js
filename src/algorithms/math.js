@@ -5,12 +5,10 @@
  * @param {number} b
  * @returns {number}
  */
-function gcd(a, b) {
+export function gcd(a, b) {
   if (b === 0) {
     return a
   }
 
   return gcd(b, a % b)
 }
-
-module.exports = { gcd }

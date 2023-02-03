@@ -4,7 +4,7 @@
  * @param {number[]} nums
  * @returns {number}
  */
-const findNumberOfLIS = function (nums) {
+export const findNumberOfLIS = function (nums) {
   const n = nums.length
   // lengths of the subsequences up to index i
   const lengths = new Array(n).fill(0)
@@ -46,5 +46,3 @@ const findNumberOfLIS = function (nums) {
 
   return result
 }
-
-module.exports = { findNumberOfLIS }

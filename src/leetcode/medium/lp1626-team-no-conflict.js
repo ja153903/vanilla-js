@@ -5,7 +5,7 @@
  * @param {number[]} ages
  * @return {number}
  */
-const bestTeamScore = function (scores, ages) {
+export const bestTeamScore = function (scores, ages) {
   const data = scores.map((score, index) => ({ score, age: ages[index] }))
 
   data.sort((a, b) => {
@@ -30,4 +30,3 @@ const bestTeamScore = function (scores, ages) {
   return Math.max(...dp)
 }
 
-module.exports = { bestTeamScore }

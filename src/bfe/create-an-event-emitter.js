@@ -1,4 +1,4 @@
-class EventEmitter {
+export class EventEmitter {
   constructor() {
     /** @type {Map<string, Set<{ callback: Function }>>} */
     this.events = new Map()

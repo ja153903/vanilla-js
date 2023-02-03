@@ -1,4 +1,4 @@
-const { sum } = require('@/bfe/create-a-sum')
+import { sum } from '@/bfe/create-a-sum'
 
 describe('sum', () => {
   it('should pass a test case', () => {

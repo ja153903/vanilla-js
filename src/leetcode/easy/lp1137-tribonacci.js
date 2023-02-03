@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {number}
  */
-const tribonacci = function (n) {
+export const tribonacci = function (n) {
   let a = 0
   let b = 1
   let c = 1
@@ -21,5 +21,3 @@ const tribonacci = function (n) {
 
   return c
 }
-
-module.exports = { tribonacci }

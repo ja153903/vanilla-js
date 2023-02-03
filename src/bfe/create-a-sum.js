@@ -17,4 +17,4 @@ function sum(num) {
   return func
 }
 
-module.exports = { sum }
+export { sum }

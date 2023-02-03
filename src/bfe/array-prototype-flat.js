@@ -13,4 +13,4 @@ function flat(arr, depth = 1) {
   }, [])
 }
 
-module.exports = { flat }
+export { flat }

@@ -25,7 +25,7 @@
  * @param {number[]} nums
  * @returns {number[]}
  */
-const largestDivisibleSubset = function (nums) {
+export const largestDivisibleSubset = function (nums) {
   const n = nums.length
 
   if (n <= 1) {
@@ -80,4 +80,3 @@ const largestDivisibleSubset = function (nums) {
   return result
 }
 
-module.exports = { largestDivisibleSubset }

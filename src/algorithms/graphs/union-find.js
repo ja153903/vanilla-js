@@ -70,4 +70,4 @@ class UnionFind {
   }
 }
 
-module.exports = { UnionFind }
+export { UnionFind }

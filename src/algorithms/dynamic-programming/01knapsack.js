@@ -5,7 +5,7 @@
  * @param {number} capacity
  * @returns {number}
  */
-function zeroOneKnapsack(weights, values, capacity) {
+export function zeroOneKnapsack(weights, values, capacity) {
   const n = weights.length
   const dp = Array(n + 1)
     .fill(0)
@@ -27,5 +27,3 @@ function zeroOneKnapsack(weights, values, capacity) {
 
   return dp[n][capacity]
 }
-
-module.exports = { zeroOneKnapsack }

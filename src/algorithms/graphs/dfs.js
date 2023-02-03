@@ -1,10 +1,10 @@
-const { buildUndirectedGraph } = require('./build-graph')
+import { buildUndirectedGraph } from './build-graph.js'
 
 /**
  *
  * @param {number[][]} edges
  */
-function dfs(edges) {
+export function dfs(edges) {
   const graph = buildUndirectedGraph(edges)
 
   /** @type {Set<number>} */
@@ -25,5 +25,3 @@ function dfs(edges) {
 
   dfsHelper(0)
 }
-
-module.exports = { dfs }

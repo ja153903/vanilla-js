@@ -1,7 +1,7 @@
-const {
+import {
   canPartition,
   canPartitionTLE,
-} = require('@/leetcode/dynamic-programming/partition-subset/lp416-partition-subset')
+} from '@/leetcode/dynamic-programming/partition-subset/lp416-partition-subset'
 
 describe('partition subset', () => {
   it('should pass some sample tests', () => {

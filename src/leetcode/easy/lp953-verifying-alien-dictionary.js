@@ -9,7 +9,7 @@
  * @param {string} order
  * @return {boolean}
  */
-const isAlienSorted = function (words, order) {
+export const isAlienSorted = function (words, order) {
   /**
    *
    * @param {string} a
@@ -45,5 +45,3 @@ const isAlienSorted = function (words, order) {
 
   return true
 }
-
-module.exports = { isAlienSorted }

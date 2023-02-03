@@ -1,4 +1,4 @@
-const { findInsertionPoint } = require('@/algorithms/binary-search')
+import { findInsertionPoint } from '@/algorithms/binary-search.js'
 
 /**
  * Given a list of numbers, find the length of the longest increasing
@@ -7,7 +7,7 @@ const { findInsertionPoint } = require('@/algorithms/binary-search')
  * @param {number[]} nums
  * @returns {number}
  */
-const lengthOfLIS = function (nums) {
+export const lengthOfLIS = function (nums) {
   const dp = new Array(nums.length).fill(1)
 
   for (let i = 0; i < nums.length; i++) {
@@ -27,7 +27,7 @@ const lengthOfLIS = function (nums) {
  * @param {number[]} nums
  * @returns {number}
  */
-const lisWithBinarySearch = function (nums) {
+export const lisWithBinarySearch = function (nums) {
   const sub = []
 
   for (const num of nums) {
@@ -41,5 +41,3 @@ const lisWithBinarySearch = function (nums) {
 
   return sub.length
 }
-
-module.exports = { lengthOfLIS, lisWithBinarySearch }

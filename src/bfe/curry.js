@@ -19,4 +19,4 @@ function curry(fn) {
   }
 }
 
-module.exports = { curry }
+export { curry }

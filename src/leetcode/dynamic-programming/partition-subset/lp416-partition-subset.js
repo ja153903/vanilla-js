@@ -1,5 +1,5 @@
-const { sum } = require('@/algorithms/arrays')
-const { isOdd } = require('@/algorithms/bit-manipulation')
+import { sum } from '@/algorithms/arrays.js'
+import { isOdd } from '@/algorithms/bit-manipulation.js'
 
 /**
  * Given an integer array nums, return true if you can partition
@@ -78,4 +78,4 @@ const canPartition = function (nums) {
   return dp[total]
 }
 
-module.exports = { canPartitionTLE, canPartition }
+export { canPartitionTLE, canPartition }

@@ -1,4 +1,4 @@
-const { flat } = require('@/bfe/array-prototype-flat')
+import { flat } from '@/bfe/array-prototype-flat'
 
 describe('flat', () => {
   it('should pass some sample test cases', () => {

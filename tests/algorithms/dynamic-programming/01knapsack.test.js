@@ -1,6 +1,4 @@
-const {
-  zeroOneKnapsack,
-} = require('@/algorithms/dynamic-programming/01knapsack')
+import { zeroOneKnapsack } from '@/algorithms/dynamic-programming/01knapsack.js'
 
 describe('zeroOneKnapsack', () => {
   it('should pass some sample cases', () => {

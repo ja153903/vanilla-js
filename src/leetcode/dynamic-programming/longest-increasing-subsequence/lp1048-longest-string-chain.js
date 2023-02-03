@@ -4,7 +4,7 @@
  * @param {string[]} words
  * @returns {number}
  */
-const longestStrChain = function (words) {
+export const longestStrChain = function (words) {
   words.sort((a, b) => {
     if (a.length === b.length) {
       return a.localeCompare(b)
@@ -60,5 +60,3 @@ function canTransform(words, current, previous) {
 
   return false
 }
-
-module.exports = { longestStrChain }

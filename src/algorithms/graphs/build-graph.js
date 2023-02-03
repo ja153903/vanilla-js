@@ -3,7 +3,7 @@
  * @param {number[]} edges
  * @returns {Map<number, Set<number>>}
  */
-function buildUndirectedGraph(edges) {
+export function buildUndirectedGraph(edges) {
   const graph = new Map()
 
   for (const [u, v] of edges) {
@@ -27,7 +27,7 @@ function buildUndirectedGraph(edges) {
  * @param {number[]} edges
  * @returns {Map<number, Set<number>>}
  */
-function buildDirectedGraph(edges) {
+export function buildDirectedGraph(edges) {
   const graph = new Map()
 
   for (const [u, v] of edges) {
@@ -40,5 +40,3 @@ function buildDirectedGraph(edges) {
 
   return graph
 }
-
-module.exports = { buildUndirectedGraph, buildDirectedGraph }

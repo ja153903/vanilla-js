@@ -1,7 +1,4 @@
-const {
-  binarySearch,
-  findInsertionPoint,
-} = require('@/algorithms/binary-search')
+import { binarySearch, findInsertionPoint } from '@/algorithms/binary-search.js'
 
 describe('Binary Search', () => {
   it('should be a proper implementation for binary search', () => {
