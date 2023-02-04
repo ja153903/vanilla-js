@@ -15,7 +15,7 @@ describe('Permutation in String', () => {
     expect(checkInclusion(s1, s2)).toBe(false)
   })
 
-  itk('should pass another case', () => {
+  it('should pass another case', () => {
     const s1 = 'adc'
     const s2 = 'dcda'
 
