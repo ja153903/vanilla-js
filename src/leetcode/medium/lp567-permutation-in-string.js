@@ -25,7 +25,8 @@ const checkInclusion = function (s1, s2) {
       return true
     }
 
-    // otherwise, we should update the window size
+    // if the current window has length equal to s1,
+    // then we should increment the start pointer
     if (end - start + 1 === s1.length) {
       const prev = s2[start].charCodeAt(0) - 97
       chars[prev]++
