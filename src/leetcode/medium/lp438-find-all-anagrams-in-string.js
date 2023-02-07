@@ -20,6 +20,8 @@ const findAnagrams = function (s, p) {
 
   const result = []
   let start = 0
+  // we take into account the number of uniqye keys in the map
+  // because there can be duplicate values in the string
   let uniqueKeys = pMap.size
 
   for (let end = 0; end < s.length; end++) {
