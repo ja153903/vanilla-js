@@ -68,4 +68,4 @@ function countFairPairsTLE(nums, lower, upper) {
   return result
 }
 
-export { countFairPairs }
+export { countFairPairs, countFairPairsTLE }
