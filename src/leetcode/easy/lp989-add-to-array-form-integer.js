@@ -1,5 +1,7 @@
 /**
  * A reason this could fail is because of overflow.
+ * So we have to use BigInt here.
+ *
  * @param {number[]} num
  * @param {number} k
  * @return {number[]}
