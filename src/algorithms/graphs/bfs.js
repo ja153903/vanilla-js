@@ -1,4 +1,4 @@
-const { buildUndirectedGraph } = require('./build-graph.js')
+import { buildUndirectedGraph } from './build-graph.js'
 
 /**
  * Note that the assumption here is that we have nodes
