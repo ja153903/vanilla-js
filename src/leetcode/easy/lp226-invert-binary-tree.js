@@ -2,13 +2,13 @@
  * @typedef TreeNode
  * @type {object}
  * @property {number} val
- * @property {TreeNode} left
- * @property {TreeNode} right
+ * @property {TreeNode | null} left
+ * @property {TreeNode | null} right
  */
 
 /**
  * @param {TreeNode} root
- * @return {TreeNode}
+ * @return {TreeNode | null}
  */
 const invertTree = function (root) {
   if (!root) {
