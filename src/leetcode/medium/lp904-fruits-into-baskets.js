@@ -1,6 +1,6 @@
 /**
  * @param {number[]} fruits
- * @return {number}
+ * @returns {number}
  */
 const totalFruit = function (fruits) {
   // keep track of how many fruits are currently in our window

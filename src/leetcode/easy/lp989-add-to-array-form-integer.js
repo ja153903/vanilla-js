@@ -4,7 +4,7 @@
  *
  * @param {number[]} num
  * @param {number} k
- * @return {number[]}
+ * @returns {number[]}
  */
 const addToArrayForm = function (num, k) {
   const asNum = BigInt(num.map((n) => n.toString()).join(''))

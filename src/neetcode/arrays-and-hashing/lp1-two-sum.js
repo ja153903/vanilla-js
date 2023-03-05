@@ -1,7 +1,7 @@
 /**
  * @param {number[]} nums
  * @param {number} target
- * @return {number[]}
+ * @returns {number[]}
  */
 const twoSum = function (nums, target) {
   const seen = new Map()

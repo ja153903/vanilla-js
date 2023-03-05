@@ -7,7 +7,7 @@
  *
  * @param {string[]} words
  * @param {string} order
- * @return {boolean}
+ * @returns {boolean}
  */
 export const isAlienSorted = function (words, order) {
   /**

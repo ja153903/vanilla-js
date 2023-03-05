@@ -8,7 +8,7 @@
 
 /**
  * @param {TreeNode} root
- * @return {TreeNode[]}
+ * @returns {TreeNode[]}
  */
 const findDuplicateSubtrees = function (_root) {
   return []

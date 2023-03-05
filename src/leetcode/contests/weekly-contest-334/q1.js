@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @return {number[]}
+ * @returns {number[]}
  */
 const leftRigthDifference = function (nums) {
   const leftPrefixSums = new Array(nums.length).fill(0)

@@ -8,7 +8,7 @@
 
 /**
  * @param {TreeNode} root
- * @return {TreeNode | null}
+ * @returns {TreeNode | null}
  */
 const invertTree = function (root) {
   if (!root) {

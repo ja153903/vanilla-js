@@ -17,7 +17,7 @@ import { sum } from '@/algorithms/arrays'
  * The solution requires us to find the minimum difference between the sum of two subsets.
  *
  * @param {number[]} stones
- * @return {number}
+ * @returns {number}
  */
 export const lastStoneWeightII = function (stones) {
   let s2 = 0

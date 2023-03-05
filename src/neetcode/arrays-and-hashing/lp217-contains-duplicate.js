@@ -1,8 +1,8 @@
 /**
  * @param {number[]} nums
- * @return {boolean}
+ * @returns {boolean}
  */
-const containsDuplicate = function(nums) {
+const containsDuplicate = function (nums) {
   const unique = new Set()
 
   for (const num of nums) {
@@ -14,6 +14,6 @@ const containsDuplicate = function(nums) {
   }
 
   return false
-};
+}
 
 export { containsDuplicate }

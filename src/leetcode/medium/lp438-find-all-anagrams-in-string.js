@@ -8,7 +8,7 @@
  *
  * @param {string} s
  * @param {string} p
- * @return {number[]}
+ * @returns {number[]}
  */
 const findAnagrams = function (s, p) {
   /** @type {Map<string, number>} */

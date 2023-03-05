@@ -3,7 +3,7 @@
  *
  * @param {number[]} scores
  * @param {number[]} ages
- * @return {number}
+ * @returns {number}
  */
 export const bestTeamScore = function (scores, ages) {
   const data = scores.map((score, index) => ({ score, age: ages[index] }))
@@ -29,4 +29,3 @@ export const bestTeamScore = function (scores, ages) {
 
   return Math.max(...dp)
 }
-

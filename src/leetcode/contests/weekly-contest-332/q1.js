@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const findTheArrayConcVal = function (nums) {
   let result = 0

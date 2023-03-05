@@ -1,7 +1,7 @@
 /**
  * @param {string} a
  * @param {string} b
- * @return {string}
+ * @returns {string}
  */
 const addBinary = function (a, b) {
   let result = ''

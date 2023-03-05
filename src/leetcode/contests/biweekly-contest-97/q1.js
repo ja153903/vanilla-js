@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @return {number[]}
+ * @returns {number[]}
  */
 const separateDigits = function (nums) {
   let result = []

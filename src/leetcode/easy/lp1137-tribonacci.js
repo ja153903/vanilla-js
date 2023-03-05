@@ -1,6 +1,6 @@
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 export const tribonacci = function (n) {
   let a = 0

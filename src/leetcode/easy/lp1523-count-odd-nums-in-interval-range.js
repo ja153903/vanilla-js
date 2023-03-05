@@ -1,7 +1,7 @@
 /**
  * @param {number} low
  * @param {number} high
- * @return {number}
+ * @returns {number}
  */
 const countOdds = function (low, high) {
   let result = 0

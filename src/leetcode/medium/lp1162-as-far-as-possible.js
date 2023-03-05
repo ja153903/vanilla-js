@@ -7,7 +7,7 @@ const DIRECTIONS = [
 
 /**
  * @param {number[][]} grid
- * @return {number}
+ * @returns {number}
  */
 const maxDistance = function (grid) {
   // We want to create a queue of all the land cells and the current number

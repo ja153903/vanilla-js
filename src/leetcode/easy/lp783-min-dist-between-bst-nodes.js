@@ -8,7 +8,7 @@
 
 /**
  * @param {TreeNode} root
- * @return {number}
+ * @returns {number}
  */
 const minDiffInBST = function (root) {
   /**

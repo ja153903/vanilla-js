@@ -2,7 +2,7 @@
  * @param {number[]} banned
  * @param {number} n
  * @param {number} maxSum
- * @return {number}
+ * @returns {number}
  */
 const maxCount = function (banned, n, maxSum) {
   let result = 0

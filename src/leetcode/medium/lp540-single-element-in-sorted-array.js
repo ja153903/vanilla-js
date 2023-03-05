@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const singleNonDuplicate = function (nums) {
   // since this is sorted, we can use binary search

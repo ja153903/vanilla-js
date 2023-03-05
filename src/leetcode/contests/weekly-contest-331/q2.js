@@ -3,7 +3,7 @@ import { isVowel } from '@/algorithms/chars'
 /**
  * @param {string[]} words
  * @param {number[][]} queries
- * @return {number[]}
+ * @returns {number[]}
  */
 const vowelStrings = function (words, queries) {
   // prefix sum might be the way to go here

@@ -1,7 +1,7 @@
 /**
  * @param {string} s
  * @param {string} t
- * @return {boolean}
+ * @returns {boolean}
  */
 const isAnagram = function (s, t) {
   const counter = new Map()

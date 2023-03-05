@@ -3,7 +3,7 @@
  *
  * @param {number} target
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 export const minSubArrayLen = function (target, nums) {
   let result = Number.POSITIVE_INFINITY

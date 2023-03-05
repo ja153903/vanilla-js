@@ -3,7 +3,7 @@ import { MaxPriorityQueue } from '@datastructures-js/priority-queue'
 /**
  * @param {number[]} nums
  * @param {number} k
- * @return {number[]}
+ * @returns {number[]}
  */
 const topKFrequent = function (nums, k) {
   const counter = new Map()

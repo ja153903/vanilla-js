@@ -4,7 +4,7 @@
  * @param {number} n
  * @param {number[][]} redEdges
  * @param {number[][]} blueEdges
- * @return {number[]}
+ * @returns {number[]}
  */
 const shortestAlternatingPaths = function (n, redEdges, blueEdges) {}
 

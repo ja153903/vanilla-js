@@ -5,7 +5,7 @@ import { sum } from '@/algorithms/arrays'
 /**
  * @param {number[]} gifts
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
 const pickGifts = function (gifts, k) {
   const maxPq = MaxPriorityQueue.fromArray(gifts)
