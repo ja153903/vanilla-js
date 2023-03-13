@@ -1,7 +1,7 @@
 /**
  * @param {number[]} piles
  * @param {number} h
- * @return {number}
+ * @returns {number}
  */
 const minEatingSpeed = function (piles, h) {
   // k is the number of bananas koko eats from a pile

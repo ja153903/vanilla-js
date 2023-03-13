@@ -1,7 +1,7 @@
 /**
  * @param {string} s
  * @param {string} t
- * @return {string}
+ * @returns {string}
  */
 const minWindow = function (s, t) {
   // if for some reason t is longer than s, then we should return an empty string

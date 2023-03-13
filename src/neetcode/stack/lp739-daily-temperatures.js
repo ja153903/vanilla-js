@@ -1,6 +1,6 @@
 /**
  * @param {number[]} temperatures
- * @return {number[]}
+ * @returns {number[]}
  */
 const dailyTemperatures = function (temperatures) {
   // this is a monotonic stack problem

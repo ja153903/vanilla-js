@@ -1,6 +1,6 @@
 /**
  * @param {number[]} height
- * @return {number}
+ * @returns {number}
  */
 const maxArea = function (height) {
   let left = 0,

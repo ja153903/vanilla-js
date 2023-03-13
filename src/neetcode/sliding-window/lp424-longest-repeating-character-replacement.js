@@ -1,7 +1,7 @@
 /**
  * @param {string} s
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
 const characterReplacement = function (s, k) {
   // this question is asking us to find the longest substring

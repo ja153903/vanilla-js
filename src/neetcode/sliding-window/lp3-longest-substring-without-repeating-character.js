@@ -1,8 +1,8 @@
 /**
  * @param {string} s
- * @return {number}
+ * @returns {number}
  */
-const lengthOfLongestSubstring = function(s) {
+const lengthOfLongestSubstring = function (s) {
   const found = new Map()
   let maxLength = 0
   let start = 0
@@ -22,6 +22,6 @@ const lengthOfLongestSubstring = function(s) {
   }
 
   return maxLength
-};
+}
 
 export { lengthOfLongestSubstring }

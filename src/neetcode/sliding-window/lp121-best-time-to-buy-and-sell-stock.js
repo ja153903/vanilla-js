@@ -1,6 +1,6 @@
 /**
  * @param {number[]} prices
- * @return {number}
+ * @returns {number}
  */
 const maxProfit = function (prices) {
   let minBuy = prices[0],

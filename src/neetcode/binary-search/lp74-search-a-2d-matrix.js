@@ -1,7 +1,7 @@
 /**
  * @param {number[][]} matrix
  * @param {number} target
- * @return {boolean}
+ * @returns {boolean}
  */
 const searchMatrix = function (matrix, target) {
   const rows = matrix.length
