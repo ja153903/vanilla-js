@@ -6,9 +6,9 @@ const generateParenthesis = function (n) {
   const result = []
 
   // to do this with a stack, we need to generate all possible combinations with a stack
-
   const stack = []
 
+  // this should be our initial state because we only want to generate valid parentheses
   stack.push(['(', n - 1, n])
 
   while (stack.length) {
